@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: a2a-sdk
-  version: "0.3.20"
+  version: "0.3.21"
   python_check_max: "3.14"
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/a2a_sdk-${{ version }}.tar.gz
-  sha256: f05bbdf4a8ada6be81dc7e7c73da3add767b20065195d94e8eb6d671d7ea658a
+  sha256: 627aa841187540f5975625c7f0383754795d55fe3e774073f2741c5bdd7c9972
 
 build:
   number: 0

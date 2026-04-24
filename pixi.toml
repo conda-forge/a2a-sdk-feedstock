@@ -5,7 +5,7 @@
 
 [workspace]
 name = "a2a-sdk-feedstock"
-version = "3.61.1"  # conda-smithy version used to generate this file
+version = "3.61.2"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/a2a-sdk-feedstock"
 authors = ["@conda-forge/a2a-sdk"]
 channels = ["conda-forge"]

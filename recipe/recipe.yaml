@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: a2a-sdk
-  version: "1.1.0"
+  version: 1.1.1
   python_check_max: '3.14'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/a2a_sdk-${{ version }}.tar.gz
-  sha256: e8102dad1b36709dbdc3d19319e38e6dfa3b3a79c30416030eb2d482576be204
+  sha256: 1662462d1d0efef697917c59ffdef543248a1ffa9ea0f7c8403d087f4958e28b
 
 build:
   number: 0
@@ -28,7 +28,6 @@ requirements:
   run:
     - python >=${{ python_min }},<4
     - httpx >=0.28.1
-    - httpx-sse >=0.4.0
     - pydantic >=2.11.3
     - protobuf >=5.29.5,<7
     - google-api-core >=1.26.0
